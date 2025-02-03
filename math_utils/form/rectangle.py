@@ -16,6 +16,11 @@ while True:
                 break
             else:
                 base, altura = map(float, valores.split())
+                if base == altura:
+                    print("A base não pode ser igual a altura!")
+                    time.sleep(2.5)
+                    limpar_terminal()
+                    continue
                 area = base * altura
                 perimetro = 2 * (base + altura)
                 print(CIANO+f"A área do retângulo é de {area}\nE seu perímetro é de {perimetro}\n\n")

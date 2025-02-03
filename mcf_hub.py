@@ -8,7 +8,7 @@ while True:
     try:
 # MENU PRINCIPAL
         limpar_terminal()
-        print(VERDE + "      Tela Inicial MCF      v0.3")
+        print(VERDE + "      Tela Inicial MCF      v1")
         print(PADRAO + "Escolha uma função (digite o codigo)")
         print(CIANO + """----Formulas Matematicas----
 - Calcular P.G / P.A (PGA)
